@@ -13,6 +13,7 @@ import {
   serverTimestamp,
   updateDoc,
 } from '@react-native-firebase/firestore';
+import { showmessageAlert } from '../../utility/utility';
 
 const AddTodoScreen = () => {
   const [title, setTitle] = useState('');
@@ -42,6 +43,7 @@ const handleSubmit = async () => {
         updatedAt: serverTimestamp(),
       }).then(res=>console.log('res', res)).catch(err=>console.log('err', err));
       console.log('✅ Todo updated:', route.params?.user?.id);
+      showmessageAlert('Updated Successfully')
     } else {
       // Add new document
       const todosCollection = collection(db, 'todos');
@@ -54,6 +56,7 @@ const handleSubmit = async () => {
         createdAt: serverTimestamp(),
       }).then(res=>console.log('res', res)).catch(err=>console.log('err', err));;
       console.log('✅ Todo added with ID:', newDocRef.id);
+      showmessageAlert('Created Successfully')
     }
 
     setIsLoading(false); // Clear loader before navigating
