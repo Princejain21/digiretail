@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "107390222881",
+    "project_id": "digiretail-8637b",
+    "storage_bucket": "digiretail-8637b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:107390222881:android:dee59445843511e1735960",
+        "android_client_info": {
+          "package_name": "com.digiretail"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "107390222881-dkm31kndhtngd4gqe5vf8onb33op9lui.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.digiretail",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "107390222881-ihkbjdqs6ki6lpuioo361hh4efrclgda.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN6Du-PfHu_l3-8Ow83Yj1-wKrXkjuUMc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "107390222881-ihkbjdqs6ki6lpuioo361hh4efrclgda.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
